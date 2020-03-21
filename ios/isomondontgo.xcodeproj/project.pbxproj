@@ -17,6 +17,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* isomondontgoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* isomondontgoTests.m */; };
+		6DA84487242683DF00F2F83C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DA84486242683DF00F2F83C /* GoogleService-Info.plist */; };
 		90E7B46455E6FA2C657E3DF3 /* libPods-isomondontgo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E36B1E025CEFC777BD2C385 /* libPods-isomondontgo.a */; };
 		E26302379A8E3E0D205D3CEF /* libPods-isomondontgo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A0E659CBCD5C0824B110F6 /* libPods-isomondontgo-tvOSTests.a */; };
 		EED9EE169E51A4ACF5E0156C /* libPods-isomondontgoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB87C0316FC7BB68B388A560 /* libPods-isomondontgoTests.a */; };
@@ -57,6 +58,7 @@
 		2D02E4901E0B4A5D006451C7 /* isomondontgo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "isomondontgo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD445D5186AA47278B424C7 /* Pods-isomondontgoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isomondontgoTests.release.xcconfig"; path = "Target Support Files/Pods-isomondontgoTests/Pods-isomondontgoTests.release.xcconfig"; sourceTree = "<group>"; };
 		6C97376BC73D46C2402812F9 /* libPods-isomondontgo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-isomondontgo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA84486242683DF00F2F83C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6E36B1E025CEFC777BD2C385 /* libPods-isomondontgo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-isomondontgo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A630D4A2274226C89AE62A7A /* Pods-isomondontgo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-isomondontgo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-isomondontgo-tvOSTests/Pods-isomondontgo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6A0E659CBCD5C0824B110F6 /* libPods-isomondontgo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-isomondontgo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,7 +163,6 @@
 				CC19350F7114815B58E6CF53 /* Pods-isomondontgoTests.debug.xcconfig */,
 				5BD445D5186AA47278B424C7 /* Pods-isomondontgoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				6DA84486242683DF00F2F83C /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* isomondontgo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* isomondontgoTests */,
@@ -309,6 +311,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -339,6 +342,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				6DA84487242683DF00F2F83C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
