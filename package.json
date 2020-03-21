@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@react-native-firebase/app": "6.3.4",
+    "kcd-scripts": "^5.5.0",
     "react": "16.9.0",
     "react-native": "0.61.5"
   },
