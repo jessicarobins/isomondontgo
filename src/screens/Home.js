@@ -10,6 +10,7 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 
 import firebase from '@react-native-firebase/app';
+import GeoWatcher from '../components/GeoWatcher';
 
 // TODO(you): import any additional firebase services that you require for your app, e.g for auth:
 //    1) install the npm package: `yarn add @react-native-firebase/auth@alpha` - you do not need to
@@ -20,7 +21,8 @@ import firebase from '@react-native-firebase/app';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\nCmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\nShake or press menu button for dev menu',
+  android:
+    'Double tap R on your keyboard to reload,\nShake or press menu button for dev menu',
 });
 
 const firebaseCredentials = Platform.select({
@@ -42,6 +44,7 @@ export default class App extends Component<Props> {
             {`\nYou currently have no Firebase apps registered, this most likely means you've not downloaded your project credentials. Visit the link below to learn more. \n\n ${firebaseCredentials}`}
           </Text>
         )}
+        <GeoWatcher />
       </View>
     );
   }
