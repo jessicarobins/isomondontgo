@@ -11,6 +11,7 @@
     "prepare": "patch-package"
   },
   "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
     "@react-native-community/masked-view": "^0.1.7",
     "@react-native-firebase/app": "6.3.4",
     "@react-navigation/native": "^5.1.1",
@@ -20,6 +21,7 @@
     "nachos-ui": "^0.2.0-beta.1",
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-native-geolocation-service": "^4.0.0",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-reanimated": "^1.7.0",
     "react-native-safe-area-context": "^0.7.3",
@@ -31,6 +33,7 @@
     "@babel/runtime": "^7.6.2",
     "@react-native-community/cli": "^2.9.0",
     "@react-native-community/eslint-config": "^0.0.5",
+    "@types/react-native": "^0.61.23",
     "babel-jest": "^24.9.0",
     "eslint": "^6.5.1",
     "jest": "^24.9.0",

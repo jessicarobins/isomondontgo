@@ -37,8 +37,12 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Isomon Don't Go needs your location in order to give you points for staying in one place.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Isomon Don't Go needs your location in order to give you points for staying in one place.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Isomon Don't Go needs your location in order to give you points for staying in one place.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
